@@ -31,6 +31,8 @@ export default defineConfig({
     },
   ],
   npmClient: 'pnpm',
+  jsMinifier: 'none',
+  devtool: 'source-map',
   externals: {
     react: 'var window.React',
     'react-dom': 'var window.ReactDOM'
